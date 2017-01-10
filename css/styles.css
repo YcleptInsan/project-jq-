@@ -1,0 +1,76 @@
+/**{
+  border: 2px solid skyblue;
+}*/
+
+
+
+.photo-content {
+  width: 40%;
+  float: left;
+  margin: 12px;
+}
+@media screen and (max-width:750px) {
+  .photo-content {
+    float: none;
+  }
+}
+
+.photo-content img {
+  margin-top: 5%;
+  width: 100%;
+  height: 350px;
+
+
+}
+
+img {
+  padding-top: 10px;
+  width: 25%;
+}
+.navbar-header h1 {
+  text-align: right;
+}
+
+.navbar-default h1 {
+  padding-left: 20px;
+  font-size: 4em;
+  color: black;
+}
+
+.panel {
+  clear: left;
+}
+
+.photo-content h1 {
+  text-align: center;
+}
+
+.container-center {
+margin: auto;
+}
+
+ul li {
+  display: inline-block;
+  margin: 2%;
+  color: black;
+}
+
+ul li a {
+  color: black;
+}
+
+h2 {
+  text-align: right;
+}
+
+#negative {
+
+  cursor: pointer;
+
+}
+
+  .negative-background {
+  background-color: black;
+  color: white ;
+
+}
